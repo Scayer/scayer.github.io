@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="Mysql主从复制设计到3个线程 Master中的 binary log dump 线程 当有一个slave连接到master中后，master创建一个binary log dump线程，用于发送bin-log内容。注意在读取binlog时，该线程会对binlog加锁，直到发送完成   Slave中的IO线程 此线程用于接收Master发来的binlog，并保存在本地的relay-log中   S">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-18T08:32:49.522Z">
+<meta property="og:updated_time" content="2019-09-18T08:41:07.492Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mysql主从同步线程分析">
 <meta name="twitter:description" content="Mysql主从复制设计到3个线程 Master中的 binary log dump 线程 当有一个slave连接到master中后，master创建一个binary log dump线程，用于发送bin-log内容。注意在读取binlog时，该线程会对binlog加锁，直到发送完成   Slave中的IO线程 此线程用于接收Master发来的binlog，并保存在本地的relay-log中   S">
@@ -191,6 +191,36 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -272,6 +302,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mysql/" itemprop="url" rel="index">
+                    <span itemprop="name">Mysql</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -426,6 +478,15 @@
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
             
 
             
